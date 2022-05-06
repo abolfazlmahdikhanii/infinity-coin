@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css" />
+
+    
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <!-- Background -->
+      <figure class="bg-content">
+        <img src="./images/bg.png" alt="" class="bg-content__img" />
+      </figure>
+      <!-- Menu -->
+      <nav class="nav">
+        <!-- Logo -->
+        <div class="nav__logo">
+          <div class="logo__container">
+            <img src="./images/logo.png" alt="logo" class="logo__img" />
+          </div>
+          <h1 class="logo__title">InfinityCoin</h1>
+        </div>
+        <!-- Menu-Item -->
+        <div class="menu">
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a href="#" class="menu__item-link">home</a>
+            </li>
+            <li class="menu__item">
+              <a href="#market" class="menu__item-link menu__item-link--status">
+                <span class="item-link__circle"></span>
+                today's market
+              </a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__item-link">toturial</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__item-link">blog</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__item-link">about us</a>
+            </li>
+          </ul>
+        </div>
+        <!-- Account-Button -->
+        <div class="account-box">
+          <a href="#" class="btn btn-login">create account</a>
+        </div>
+      </nav>
+      <!-- Header-Content -->
+      <section class="header__content">
+        <!-- Left-Side -->
+        <div class="content__left">
+          <p class="content__sub-title">
+            ⌛ Any second of the day or night you want
+          </p>
+          <h2 class="content__title">
+            cryptocurrency <br />
+            beat in your hands
+          </h2>
+        </div>
+        <!-- Right-Side -->
+        <div class="content__right">
+          <a href="#" class="btn btn-start"> let's started </a>
+        </div>
+      </section>
+    </header>
+
+    <!-- Main -->
+    <main>
+      <!-- trading -->
+      <section class="trading">
+        <!-- title -->
+        <h3 class="trading__title">Treading now 🔥</h3>
+        <!-- table-currency -->
+        <table class="table" id="market">
+          <!-- table-header -->
+          <thead class="table__head">
+            <tr>
+              <th class="head__item">market</th>
+              <th class="head__item">last price</th>
+             
+              <th class="head__item">24h change</th>
+              <th class="head__item">market cap</th>
+              <th class="head__item">last 7 days</th>
+            </tr>
+          </thead>
+          <!-- table-body -->
+          <tbody class="table__body">
+        
+        
+          </tbody>
+        </table>
+      </section>
+
+      <!-- pagination -->
+      <section class="pagination">
+        <div class="pagination-content">
+          <button class="pagination__btn prev-btn">
+            <svg xmlns="http://www.w3.org/2000/svg"  width="22" height="22"  fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
+            </svg>
+          </button>
+          <p class="pagination__number">1</p>
+          <button class="pagination__btn next-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+            </svg>
+            
+          </button>
+        </div>
+      </section>
+       <!-- notification -->
+  <div class="noti connect">
+    <p class="noti__text ">please check network. no connection</p>
+  </div>
+    </main>
+
+    <!-- loader -->
+    <div class="lds-roller"><div></div><div></div><div></div><div>
+  
+ 
+        <!-- Scripts -->
+        <script src="js/app.js" ></script>
+  </body>
+</html>
