@@ -6,3 +6,6 @@ inifinity coin is a platform that interacts with the coingeco API, where you can
 
 - chart
 - status of market
+
+
+[Demo](https://infinity-coin.netlify.app/)
