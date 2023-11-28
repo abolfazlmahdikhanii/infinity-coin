@@ -65,7 +65,7 @@ const renderData = function (arr) {
       <td class="body__item">
         <img src='https://www.coingecko.com/coins/${splitIdFromUrl(
           value?.image
-        )}/sparkline' alt="sparkline" class="body__item-sparkline">
+        )}/sparkline.svg' alt="sparkline" class="body__item-sparkline">
       </td>
 
 
